@@ -1,0 +1,108 @@
+baseURL: "https://rundongw.github.io/"
+locale: "en-us"
+title: "Rundong Wang"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 10
+enableRobotsTXT: true
+enableEmoji: false
+hasCJKLanguage: true
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+
+pygmentsUseClasses: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "Rundong Wang"
+  description: "Rundong Wang — undergraduate researcher in cognitive science at UBC, working on time perception, social cognition, and neurophenomenology."
+  author: "Rundong Wang"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: false
+  ShowWordCount: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  comments: false
+
+  profileMode:
+    enabled: true
+    title: "Rundong Wang"
+    subtitle: >
+      Undergraduate researcher in Cognitive Systems at the University of British Columbia,
+      interested in how minds engage a world that is dynamic, social, and always met from a
+      point of view.
+    imageUrl: ""
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: About
+        url: about
+      - name: CV
+        url: cv
+      - name: Interests
+        url: interests
+
+  socialIcons:
+    - name: email
+      url: "mailto:rwang86@student.ubc.ca"
+    - name: github
+      url: "https://github.com/rundongw"
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 20
+    - identifier: interests
+      name: Interests
+      url: /interests/
+      weight: 30
+
+taxonomies:
+  tag: tags
