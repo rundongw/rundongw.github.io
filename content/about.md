@@ -23,13 +23,8 @@ point of view. Three threads run through this:
   understand the basis of human experience, I think we have to voyage to the
   phenomenon of "lived being."
 
-I currently work across several labs at UBC: the [UBC Vision
-Lab](https://visionlab.psych.ubc.ca/) (Dr. James T. Enns & Dr. Veronica
-Dudarev), the Interactive Mind & Movement Lab (Dr. Hee Yeon Im), and the
-Motivated Cognition Lab (Dr. Rebecca Todd). I've built experiment and analysis
-pipelines in PsychoPy, MATLAB/EEGLAB, MNE-Python, and R, and I've had the
-chance to mentor incoming research assistants and high school students along
-the way.
+I currently work across several labs at UBC: the [Interactive Mind & Movement Lab](https://www.imm-lab.ca/) (Dr. Hee Yeon Im),  the [UBC Vision
+Lab](https://visionlab.psych.ubc.ca/) (Dr. James T. Enns & Dr. Veronica Dudarev), and the [Motivated Cognition Lab](https://mclab.psych.ubc.ca/) (Dr. Rebecca Todd). I've built experiment and analysis pipelines in PsychoPy, MATLAB/EEGLAB, MNE-Python, and R, and I've had the chance to mentor incoming research assistants and high school students along the way.
 
 Outside of coursework and research I TA for UBC's Cognitive Systems program
 and tutor statistics for the Psychology department.
