@@ -33,11 +33,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Refresh CV PDF from CV repo
+        run: |
+          curl -sL --fail \
+            "https://raw.githubusercontent.com/rundongw/CV/main/CV_RundongWang.pdf" \
+            -o static/files/CV_RundongWang.pdf
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
